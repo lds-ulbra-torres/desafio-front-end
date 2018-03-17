@@ -37,4 +37,4 @@ Em caso de dúvidas, [abra uma issue](https://github.com/lds-ulbra-torres/desafi
 
 boa sorte e abç.
 
-fonte:@chaordic
+by @chaordic
