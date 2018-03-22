@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Chaordic</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script>
+		function trocaLink(){
+			document.getElementById("nlink").value="http://chr.dc/xyzxyz";
+			document.getElementById("nlink").style.color="white";
+			document.getElementById("nbotao").value="COPIAR"
+		}
+	</script>
+</head>
+<body>
+	<div id="chaordic">
+		<h2 id="cabecalho">CHAORDIC</h2>
+	</div>
+	<div id="home-page">
+		<div id="box">
+			<h1>Encurte seus links.</h1>
+			<h2 id="info">Links são longos. Encurte os links que você deseja compartilhar,<br> e acompanhe enquanto viajam através da internet.</h2>
+			<form id="form">
+				<input type="text" id="nlink" name="links" placeholder="Cole o seu link aqui">
+				<input type="button" id="nbotao" name="botao" value="ENCURTAR" onclick="trocaLink()">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
