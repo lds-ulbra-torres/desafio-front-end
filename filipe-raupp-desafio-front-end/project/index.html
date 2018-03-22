@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Filipe Raupp - Desafio LDS</title>
+</head>
+<body>
+    <header>
+            <img src="../../Assets/logo-chaordic.png" alt="chaordic" width="180vw">
+    </header>
+
+    <section id="fstSection">
+        <div id="imgBackground">
+            <h1 id="titleFstSection">Encurte seus links.</h1>
+            <p id="paragraphFstSection">Links são longos. Encurte os links que você deseja compartilhar,
+                e acompanhe enquanto viajam através da internet. 
+            </p>
+            <input type="text" id="inputFstSection" placeholder="Cole seu link aqui">
+            <input type="button" value="ENCURTAR" id="btnFstSection" onclick="shortLink()">
+        </div>
+    </section>
+
+    <section id="sndSection">
+        <h1 class="titleChaordic">TOP 5</h1>
+
+        <ul id="listaLinks">
+            
+        </ul>
+    </section>
+
+    <section id="trdSection">
+        <div class="arrow-down"></div>
+        <h1 class="titleChaordic">HITS</h1>
+        <div id="divHits">
+            35.713.571
+        </div>
+        <p id="clicksToLinks">Cliques em links</p>
+    </section>
+        
+    <footer>
+        <div class="flex-space-around">
+            <p id="pFooter">chr.dc</p>
+            <div></div>
+                <div> <img src="../../Assets/icon-twitter.png" >
+                    <img src="../../Assets/icon-facebook.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="interaction.js"></script>
+</body>
+</html>
