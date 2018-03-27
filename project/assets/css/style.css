@@ -1,0 +1,280 @@
+/* 
+Cores:
+    Vermelho Chaordic : #aa1423
+    Texto de apoio: #777777
+    Linha e background: #eee
+    Laranja: #f66b0c
+*/
+
+*, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Rows and Grids */
+.row{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.col-1{max-width: 8.333333%;}
+.col-2{max-width: 16.666667%;}
+.col-3{max-width: 25%;}
+.col-4{max-width: 33.333333%;}
+.col-5{max-width: 41.666667%;}
+.col-6{max-width: 50%;}
+.col-7{max-width: 58.333333%;}
+.col-8{max-width: 66.666667%;}
+.col-9{max-width: 75%;}
+.col-10{max-width: 83.333333%;}
+.col-11{max-width: 91.666667;}
+.col-12{max-width: 100%;}
+
+.col-9-5{
+    max-width: 78.5%;
+}
+
+[class *= 'col-']{
+    width: 100%;
+}
+/* Fim rows */
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+h1{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 4em;
+}
+
+h4{
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.btn{
+    font-size: 1.2em;
+    color: #111;
+    background: transparent;
+    padding: .7em 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    width:5em;
+}
+
+.input-field{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.input-field input{
+    border: none;
+    background: transparent;
+    padding: .6575em 0;
+    border-bottom: 2px solid #f66b0c;
+    font-size: 1.2em;
+    color: #f66b0c;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    transition: all ease-in-out .5s;
+}
+
+.input-field .clear{
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    position: absolute;
+    bottom: .5em;
+    right: 0;
+    display: none;
+}
+
+.input-field input::placeholder{
+    color: #f66b0c;
+}
+
+/* Structure application */
+/* Header */
+header{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+header #logo_um{
+    width: auto;
+    text-align: center;
+}
+
+#logo_dois{
+    width: 10%;
+}
+
+/* Fim Header */
+
+/* Banner */
+main#banner{
+    position: relative;
+    text-align: center;
+    background: #aa1423;
+    color: #fff;
+    height: 860px;
+
+    background-image: url("../imgs/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main .content{
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .destaque{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+main .destaque h4{
+    margin-top: 2%;
+}
+
+main .destaque .row{
+    margin: 4.5em 0;
+}
+
+main .destaque .btn{
+    background: #f66b0c;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+/* Fim Banner */
+
+#top_five{
+    padding: 2em;    
+}
+
+#top_five h1{
+    color:#aa1423;
+    font-size: 3em;
+    padding: 1em;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+th{
+    color:#aa1423;
+    padding-right: 10em;
+    width: 5em;
+    text-align: left;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+td{
+    font-family: 'Roboto Slab', sans-serif;
+    color:#777777;
+    width: 5em;
+    text-align: right;
+    padding: 1em 0;
+}
+
+table#top{    
+    font-size: 1.5em;
+    border-color: #777777;
+    width: 25em;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+tr{
+    border-bottom: 1px solid #777777;
+}
+
+
+
+.hits{
+    font-family: 'Roboto Slab', sans-serif;
+    background-color: lightgrey;    
+    padding: 5em;    
+    font-size: .8em;
+    position: relative;
+}
+
+.hits h1{
+    color:#aa1423;
+    font-weight: normal;
+}
+
+.hits h3{
+   
+    color: #777777;
+}
+
+.hitss{
+    margin: .3em auto;
+}
+
+.contador{
+    color:#aa1423;
+    font-size: 2.6em;
+    background: white;
+    padding: .3em;
+    width: 5.5em;
+    text-align: center;
+    margin-left: 15.3em;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: .2em;
+
+}
+
+.link_hits{
+    cursor: pointer;
+}
+
+.squad{
+    background: #fff;
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 65px;
+    transform: rotate(45deg);
+    top: -10.5%;
+    left: 47.5%;
+}
+
+footer{
+    height: 10%; 
+}
+
+#foot{
+    background: white;
+    width: 50em;
+    
+}
+
+#foot td{
+    color: #aa1423;
+    font-size: 23px;
+    border-collapse: collapse;
+}
+
+#site{
+    text-align: left;
+}
