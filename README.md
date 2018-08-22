@@ -7,7 +7,7 @@ O desafio proposto consiste numa **landing page** simulando um encurtador de lin
 - Faça um fork desse repositório e faça o desafio numa branch com o seu nome (exemplo: `nome-sobrenome-desafio-front-end`);
 - O seu objetivo principal é transformar esse [mockup](./Layout/Preview.jpg) em um protótipo funcional HTML/CSS/JS;
 - No seu projeto, crie um diretório chamado `project`. Todos os arquivos que você criar devem estar dentro desta pasta;
-- Ao finalizar este desafio, enviar um **pull request** com suas alterações e envie um e-mail para cassio.huggentobler@ulbra.inf.br com o link do pull request.
+- Ao finalizar este desafio, enviar um **pull request** com suas alterações e envie um e-mail para cassio.costa@ulbra.br com o link do pull request.
 
 
 ### Layout
